@@ -50,5 +50,53 @@ int recvn(SOCKET s, char* buf, int len, int flags) {
 }
 
 int main() {
+	int retval;
 
+	WSADATA wsa;
+	if (WSAStartup(MAKEWORD(2, 2), &wsa)) {
+		return 1;
+	}
+
+	SOCKET listen_sock = socket(AF_INET, SOCK_STREAM, 0);
+	if (listen_sock == INVALID_SOCKET) err_quit("socket()");
+
+	SOCKADDR_IN serveraddr;
+	ZeroMemory(&serveraddr, sizeof(serveraddr));
+	serveraddr.sin_family = AF_INET;
+	serveraddr.sin_addr.s_addr = inet_addr(SERVERIP);
+	serveraddr.sin_port = htons(SERVERPORT);
+	retval = connect(listen_sock, (SOCKADDR*)&serveraddr, sizeof(serveraddr));
+	if (retval == SOCKET_ERROR) err_quit("connect()");
+
+	char buf[BUFSIZE + 1];
+	int len;
+
+	while (1) {
+		if (fgets(buf, BUFSIZE + 1, stdin) == NULL) break;
+
+		len = strlen(buf);
+		if (buf[len - 1] == '\n') buf[len - 1] = '\0';
+		if (strlen(buf) == 0) break;
+
+		retval = send(listen_sock, buf, strlen(buf), 0);
+		if (retval == SOCKET_ERROR) {
+			err_display("send()");
+			break;
+		}
+
+		retval = recvn(listen_sock, buf, retval, 0);
+		if (retval == SOCKET_ERROR) {
+			err_display("recv()");
+			break;
+		}
+		else if (retval == 0) break;
+
+		buf[retval] = '\0';
+		printf("¹ÞÀº°Å : %s\n", buf);
+	}
+
+	closesocket(listen_sock);
+
+	WSACleanup();
+	return 0;
 }

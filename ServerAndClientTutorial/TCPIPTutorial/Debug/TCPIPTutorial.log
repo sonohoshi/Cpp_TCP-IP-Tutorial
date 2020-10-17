@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ServerAndClientTutorial\TCPIPTutorial\main.cpp(67,45): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ServerAndClientTutorial\TCPIPTutorial\main.cpp(79,50): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ServerAndClientTutorial\TCPIPTutorial\main.cpp(89,45): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  TCPIPTutorial.vcxproj -> C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ServerAndClientTutorial\Debug\TCPIPTutorial_server.exe

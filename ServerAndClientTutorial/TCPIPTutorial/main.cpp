@@ -76,7 +76,7 @@ int main(int argc, char* argv[]) {
 			else if (retval == 0) break;
 
 			buf[retval] = '\0';
-			printf("ip : %s, port : %d, contents : %s", inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port), buf);
+			printf("ip : %s, port : %d, contents : %s\n", inet_ntoa(clientaddr.sin_addr), ntohs(clientaddr.sin_port), buf);
 
 			retval = send(client_sock, buf, retval, 0);
 			if (retval == SOCKET_ERROR) {
