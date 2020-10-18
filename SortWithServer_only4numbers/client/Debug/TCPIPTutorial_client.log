@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(TCPIPTutorial_client.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.cpp
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\client\main.cpp(56,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\client\main.cpp(58,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\client\main.cpp(73,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\client\main.cpp(85,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\client\main.cpp(79,6): warning C4101: 'len' :참조되지 않은 지역 변수입니다.
+  TCPIPTutorial_client.vcxproj -> C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\Debug\client.exe

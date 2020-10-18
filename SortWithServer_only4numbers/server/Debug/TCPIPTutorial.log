@@ -1,0 +1,3 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(TCPIPTutorial_server.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.cpp
+  TCPIPTutorial.vcxproj -> C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\SortWithServer\Debug\server.exe
