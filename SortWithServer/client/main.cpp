@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#define SERVERIP "::1"
+#define PORT 10000
 #define BUFSIZE 512
 
 void err_quit(const char* msg) {
@@ -49,13 +51,6 @@ int recvn(SOCKET s, char* buf, int len, int flags) {
 
 int main() {
 	int retval;
-	char ip[512]{ 0 };
-	int port = 0;
-
-	printf("서버 IP 입력 : ");
-	scanf("%s", ip);
-	printf("서버 Port 입력 : ");
-	scanf(" %d", &port);
 
 	getchar();
 
@@ -64,14 +59,15 @@ int main() {
 		return 1;
 	}
 
-	SOCKET listen_sock = socket(AF_INET, SOCK_STREAM, 0);
+	SOCKET listen_sock = socket(AF_INET6, SOCK_STREAM, 0);
 	if (listen_sock == INVALID_SOCKET) err_quit("socket()");
 
-	SOCKADDR_IN serveraddr;
+	SOCKADDR_IN6 serveraddr;
 	ZeroMemory(&serveraddr, sizeof(serveraddr));
-	serveraddr.sin_family = AF_INET;
-	serveraddr.sin_addr.s_addr = inet_addr(ip);
-	serveraddr.sin_port = htons(port);
+	serveraddr.sin6_family = AF_INET6;
+	int addrlen = sizeof(serveraddr);
+	WSAStringToAddress((LPWSTR)SERVERIP, AF_INET6, NULL, (SOCKADDR*)&serveraddr, &addrlen);
+	serveraddr.sin6_port = htons(PORT);
 	retval = connect(listen_sock, (SOCKADDR*)&serveraddr, sizeof(serveraddr));
 	if (retval == SOCKET_ERROR) err_quit("connect()");
 	printf("서버와 정상적으로 연결되었습니다.\n");

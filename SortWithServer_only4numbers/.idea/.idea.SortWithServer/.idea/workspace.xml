@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87582ccb-9b4e-4b19-9b18-0bea4f059c4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/.vs/SortWithServer/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/.vs/SortWithServer/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/.vs/SortWithServer/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/.vs/SortWithServer/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/Debug/client.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/Debug/client.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/Debug/client.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/Debug/client.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/Debug/server.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/Debug/server.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/Debug/server.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/Debug/server.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/client/Debug/TCPIPTutorial_client.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/client/Debug/TCPIPTutorial_client.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/client/Debug/client.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/client/Debug/client.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/client/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/client/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/client/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/client/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/client/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/client/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/server/Debug/TCPIPTutorial.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/server/Debug/TCPIPTutorial.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/server/Debug/server.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/server/Debug/server.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/server/Debug/vc142.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/server/Debug/vc142.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/server/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/server/Debug/vc142.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortWithServer/server/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SortWithServer/server/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1kI4zBVmX6h46YtDvDovFQFNcAT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1605375032655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605375032655</updated>
+      <workItem from="1605375040139" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

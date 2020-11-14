@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 중간 디렉터리(Debug\)에 다른 프로젝트(TCPIPTutorial_server.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.cpp
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(22,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(26,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(30,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(39,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(43,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(47,21): warning C4244: 'return': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(131,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\server\main.cpp(142,45): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  TCPIPTutorial.vcxproj -> C:\Users\82108\WorkSpace\Cpp_TCP-IP-Tutorial\ProductCalculator\Debug\server.exe

@@ -50,13 +50,14 @@ int main(int argc, char* argv[]) {
 		return 1;
 	}
 
-	SOCKET listen_sock = socket(AF_INET, SOCK_STREAM, 0);
+	SOCKET listen_sock = socket(AF_INET6, SOCK_STREAM, 0);
 	if (listen_sock == INVALID_SOCKET) err_quit("socket()");
 
-	SOCKADDR_IN serveraddr;
+	SOCKADDR_IN6 serveraddr;
 	ZeroMemory(&serveraddr, sizeof(serveraddr));
-	serveraddr.sin_family = AF_INET;
-	serveraddr.sin_port = htons(SERVERPORT);
+	serveraddr.sin6_family = AF_INET6;
+	serveraddr.sin6_addr = in6addr_any;
+	serveraddr.sin6_port = htons(SERVERPORT);
 	retval = bind(listen_sock, (SOCKADDR*)&serveraddr, sizeof(serveraddr));
 	if (retval == SOCKET_ERROR) err_quit("bind()");
 
@@ -64,7 +65,7 @@ int main(int argc, char* argv[]) {
 	if (retval == SOCKET_ERROR) err_quit("listen()");
 
 	SOCKET client_sock;
-	SOCKADDR_IN clientaddr;
+	SOCKADDR_IN6 clientaddr;
 	int addrlen;
 	char buf[BUFSIZE + 1];
 	
